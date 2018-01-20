@@ -5,6 +5,18 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+# Gema para Bootstrap
+gem 'bootstrap-sass', '~> 3.3.6'
+gem 'bootstrap', '~> 4.0.0'
+gem 'autoprefixer-rails'
+gem 'bootstrap-social-rails'
+
+# Gema para iconos y fuentes
+gem 'font-awesome-sass', '~> 4.4.0'
+gem "font-awesome-rails"
+
+# Gema de jquery
+gem 'jquery-rails'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'

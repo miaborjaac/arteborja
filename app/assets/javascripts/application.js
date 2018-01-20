@@ -12,4 +12,11 @@
 //
 //= require rails-ujs
 //= require turbolinks
+//= require jquery
+//= require jquery.easing.min
+//= require popper
+//= require bootstrap
+//= require bootstrap.min
+//= require theme
+//= require validate
 //= require_tree .
