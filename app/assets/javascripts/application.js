@@ -14,7 +14,6 @@
 //= require turbolinks
 //= require jquery
 //= require jquery.easing.min
-//= require popper
 //= require bootstrap
 //= require bootstrap.min
 //= require theme
