@@ -1,0 +1,140 @@
+Started GET "/" for 181.136.72.228 at 2018-01-21 01:00:10 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  Rendered home/index.html.erb within layouts/home_layout (4906.1ms)
+Completed 500 Internal Server Error in 5100ms
+
+
+  
+ActionView::Template::Error (The asset "firm.jpg" is not present in the asset pipeline.):
+    26: 			    <%= image_tag("anibalPhoto.jpg", alt: 'Anibal Borja', class: "mx-auto img-circle", style: "height: 10em; width: 10em;") %>
+    27: 			    <br></br>
+    28: 				<h5>Anibal Borja</h4>
+    29: 				<%= image_tag("firm.jpg", alt: 'Anibal Borja', class: "mx-auto img-circle", style: "height: 10em; width: 10em;") %>
+    30: 			</div>
+    31: 			<div class="col-lg-8 col-lg-offset-2">
+    32: 				<p>
+  
+app/views/home/index.html.erb:29:in `_app_views_home_index_html_erb___3417577975947441327_20025580'
+app/controllers/home_controller.rb:3:in `index'
+Started GET "/" for 181.136.72.228 at 2018-01-21 01:00:28 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  Rendered home/index.html.erb within layouts/home_layout (3.2ms)
+Completed 200 OK in 111ms (Views: 110.3ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-21 01:02:15 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  Rendered home/index.html.erb within layouts/home_layout (3241.3ms)
+Completed 200 OK in 3341ms (Views: 3340.3ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-21 01:02:37 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  Rendered home/index.html.erb within layouts/home_layout (3.1ms)
+Completed 200 OK in 52ms (Views: 51.0ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-21 01:09:18 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  Rendered home/index.html.erb within layouts/home_layout (2.3ms)
+Completed 200 OK in 46ms (Views: 45.0ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-21 01:09:47 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  Rendered home/index.html.erb within layouts/home_layout (1.9ms)
+Completed 200 OK in 41ms (Views: 40.9ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-21 01:10:09 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  Rendered home/index.html.erb within layouts/home_layout (2.1ms)
+Completed 200 OK in 52ms (Views: 51.2ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-21 01:10:17 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  Rendered home/index.html.erb within layouts/home_layout (2.1ms)
+Completed 200 OK in 46ms (Views: 45.7ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-21 01:10:26 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  Rendered home/index.html.erb within layouts/home_layout (2.1ms)
+Completed 200 OK in 49ms (Views: 48.5ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-21 01:10:47 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  Rendered home/index.html.erb within layouts/home_layout (2.0ms)
+Completed 200 OK in 49ms (Views: 48.4ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-21 01:10:54 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  Rendered home/index.html.erb within layouts/home_layout (1.8ms)
+Completed 200 OK in 56ms (Views: 55.9ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-21 01:10:59 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  Rendered home/index.html.erb within layouts/home_layout (2.0ms)
+Completed 200 OK in 44ms (Views: 43.6ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-21 01:11:05 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  Rendered home/index.html.erb within layouts/home_layout (2.0ms)
+Completed 200 OK in 49ms (Views: 48.1ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-21 01:11:13 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  Rendered home/index.html.erb within layouts/home_layout (2.3ms)
+Completed 200 OK in 53ms (Views: 51.9ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-21 01:13:56 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  Rendered home/index.html.erb within layouts/home_layout (2.7ms)
+Completed 200 OK in 49ms (Views: 48.8ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-21 01:14:06 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  Rendered home/index.html.erb within layouts/home_layout (233.8ms)
+Completed 200 OK in 554ms (Views: 291.9ms)
+
+
