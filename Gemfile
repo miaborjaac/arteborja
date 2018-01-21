@@ -7,7 +7,6 @@ end
 
 # Gema para Bootstrap
 gem 'bootstrap-sass', '~> 3.3.6'
-gem 'bootstrap', '~> 4.0.0'
 gem 'autoprefixer-rails'
 gem 'bootstrap-social-rails'
 
