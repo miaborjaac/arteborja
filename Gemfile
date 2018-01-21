@@ -6,11 +6,7 @@ git_source(:github) do |repo_name|
 end
 
 # Gema para Bootstrap
-<<<<<<< HEAD
-gem 'bootstrap', '~> 4.0.0'
-=======
 gem 'bootstrap-sass', '~> 3.3.6'
->>>>>>> home_page
 gem 'autoprefixer-rails'
 gem 'bootstrap-social-rails'
 
