@@ -4,7 +4,7 @@
     	<div class="container">
     		<div class="row">
     			<div class="col-md-8 col-md-offset-2">
-    				<h1 class="brand-heading">Arte Borja</h1>
+    				<h1 class="brand-heading"><%= @arteBorja %></h1>
     				<p class="intro-text">
     					------
     				</p>
@@ -113,14 +113,36 @@
 			<div class="col-lg-8 col-lg-offset-2">
 				<h2>Servicios</h2>
 				<p>
-					 Podrás solicitar un servicio artístico en las diferentes modalidades que se ofrecen.
+					 Podrás solicitar un servicio artístico en las diferentes modalidades que ofrece <i><%= @arteBorja %></i>.
 				</p>
 				<ul class="list-inline banner-social-buttons">
 					<li>
 						<a href="#" class="btn btnghost btn-lg"><i class="fa fa-handshake-o fa-fw"></i><span class="network-name"> Solicitar servicio</span></a>
 					</li>
 				</ul>
-				
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Community Section -->
+<section id="community">
+	<div class="container content-section text-center">
+		<div class="row">
+			<div class="col-lg-8 col-lg-offset-2">
+				<h2>Comunidad</h2>
+				<p>
+					 Participa en la comunidad de <i><%= @arteBorja %></i>. Podrás observar las opiniones de las demás personas y comentar lo que piensas.
+				</p>
+				<ul class="list-inline banner-social-buttons">
+					<li>
+						<a href="#" class="btn btnghost btn-lg"><i class="fa fa-users fa-fw"></i><span class="network-name"> Ir a comunidad</span></a>
+					</li>
+				</ul>
+				<br></br>
+				<p>
+					 También puedes seguir a <i><%= @arteBorja %></i> en redes sociales.
+				</p>
 				<ul class="list-inline banner-social-buttons">
 					<li>
 					<a href="https://twitter.com/wowthemesnet" class="btn btnghost btn-lg"><i class="fa fa-twitter fa-fw"></i><span class="network-name">Twitter</span></a>
@@ -136,13 +158,3 @@
 		</div>
 	</div>
 </section>
-
-<!-- Footer -->
-<footer>
-	<div class="container text-center">
-		<p class="credits">
-			Copyright &copy; Arte Borja 2018<br/>
-			---
-		</p>
-	</div>
-</footer>
