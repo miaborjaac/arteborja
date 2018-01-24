@@ -1714,3 +1714,683 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 4327ms (Views: 4325.9ms)
 
 
+Started GET "/" for 181.136.72.228 at 2018-01-23 22:59:35 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  Rendered home/index.html.erb within layouts/home_layout (464.0ms)
+Completed 200 OK in 793ms (Views: 533.9ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-23 23:02:27 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  Rendered home/index.html.erb within layouts/home_layout (314.4ms)
+Completed 200 OK in 605ms (Views: 384.8ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-23 23:03:09 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  Rendered home/index.html.erb within layouts/home_layout (3.5ms)
+Completed 200 OK in 52ms (Views: 51.2ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-23 23:04:19 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  Rendered home/index.html.erb within layouts/home_layout (3.6ms)
+Completed 200 OK in 52ms (Views: 51.8ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-23 23:04:37 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  Rendered home/index.html.erb within layouts/home_layout (3.4ms)
+Completed 200 OK in 47ms (Views: 46.7ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-23 23:04:41 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/application
+  Rendered home/about_me.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 54ms (Views: 52.6ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-23 23:05:04 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  Rendered home/index.html.erb within layouts/home_layout (3.3ms)
+Completed 200 OK in 50ms (Views: 48.9ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-23 23:06:45 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  Rendered home/index.html.erb within layouts/home_layout (3.3ms)
+Completed 200 OK in 50ms (Views: 49.2ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-23 23:09:22 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  Rendered home/index.html.erb within layouts/home_layout (3.4ms)
+Completed 200 OK in 49ms (Views: 48.3ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-23 23:10:41 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  Rendered home/index.html.erb within layouts/home_layout (3.5ms)
+Completed 200 OK in 59ms (Views: 57.9ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-23 23:20:26 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  Rendered home/index.html.erb within layouts/home_layout (4697.0ms)
+Completed 200 OK in 4806ms (Views: 4805.5ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-23 23:24:00 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  Rendered home/index.html.erb within layouts/home_layout (3.2ms)
+Completed 200 OK in 47ms (Views: 45.9ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-23 23:24:29 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  Rendered home/index.html.erb within layouts/home_layout (3.3ms)
+Completed 200 OK in 48ms (Views: 47.7ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-23 23:26:40 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  Rendered home/index.html.erb within layouts/home_layout (3.6ms)
+Completed 200 OK in 55ms (Views: 54.5ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-23 23:28:06 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  Rendered home/index.html.erb within layouts/home_layout (3.4ms)
+Completed 200 OK in 4124ms (Views: 4123.6ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-23 23:28:25 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/application
+  Rendered home/about_me.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 55ms (Views: 53.9ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-23 23:28:50 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  Rendered home/index.html.erb within layouts/home_layout (3.1ms)
+Completed 200 OK in 49ms (Views: 48.2ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-23 23:28:51 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  Rendered home/index.html.erb within layouts/home_layout (3.7ms)
+Completed 200 OK in 51ms (Views: 50.5ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-23 23:28:55 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  Rendered home/index.html.erb within layouts/home_layout (3.1ms)
+Completed 200 OK in 47ms (Views: 46.8ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-23 23:28:58 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  Rendered home/index.html.erb within layouts/home_layout (2.9ms)
+Completed 200 OK in 51ms (Views: 50.0ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-23 23:29:05 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  Rendered home/index.html.erb within layouts/home_layout (3.1ms)
+Completed 200 OK in 67ms (Views: 66.2ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-23 23:29:07 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  Rendered home/index.html.erb within layouts/home_layout (3.2ms)
+Completed 200 OK in 54ms (Views: 53.2ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-23 23:29:09 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  Rendered home/index.html.erb within layouts/home_layout (3.0ms)
+Completed 200 OK in 49ms (Views: 48.0ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-23 23:29:13 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/application
+  Rendered home/about_me.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 80ms (Views: 78.5ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-23 23:30:57 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/application
+  Rendered home/about_me.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 47ms (Views: 45.2ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-23 23:36:59 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/application
+  Rendered home/about_me.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 53ms (Views: 51.9ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-23 23:40:23 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (0.4ms)
+Completed 200 OK in 52ms (Views: 51.5ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-23 23:40:43 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/home_layout
+  Rendered home/about_me.html.erb within layouts/home_layout (0.4ms)
+Completed 200 OK in 47ms (Views: 46.2ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-23 23:40:55 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (0.5ms)
+Completed 200 OK in 46ms (Views: 45.4ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-23 23:43:21 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (0.5ms)
+Completed 200 OK in 54ms (Views: 53.5ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-23 23:44:02 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (0.5ms)
+Completed 200 OK in 47ms (Views: 46.4ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-23 23:44:05 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  Rendered home/index.html.erb within layouts/home_layout (3.3ms)
+Completed 200 OK in 51ms (Views: 50.0ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-23 23:44:17 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (1.3ms)
+Completed 200 OK in 96ms (Views: 94.7ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-23 23:45:18 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (0.6ms)
+Completed 200 OK in 48ms (Views: 46.9ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-23 23:46:04 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (0.7ms)
+Completed 200 OK in 68ms (Views: 67.3ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-23 23:49:23 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (0.7ms)
+Completed 200 OK in 49ms (Views: 48.1ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-23 23:49:31 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (0.5ms)
+Completed 200 OK in 43ms (Views: 42.0ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-23 23:50:44 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (0.5ms)
+Completed 200 OK in 51ms (Views: 50.0ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-23 23:51:08 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (0.4ms)
+Completed 200 OK in 44ms (Views: 43.8ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-23 23:53:56 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (0.6ms)
+Completed 200 OK in 4273ms (Views: 4272.4ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-24 00:25:26 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (1.2ms)
+Completed 200 OK in 6113ms (Views: 5929.5ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-24 00:27:09 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (0.8ms)
+Completed 200 OK in 4144ms (Views: 4139.5ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-24 00:45:25 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (1.3ms)
+Completed 200 OK in 6120ms (Views: 5902.3ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-24 00:50:23 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (2.6ms)
+Completed 200 OK in 68ms (Views: 67.4ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-24 00:56:38 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (0.6ms)
+Completed 200 OK in 46ms (Views: 45.1ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-24 00:57:14 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (2.0ms)
+Completed 200 OK in 46ms (Views: 45.8ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-24 00:57:56 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (2.0ms)
+Completed 200 OK in 4301ms (Views: 4300.9ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-24 00:58:37 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (2.0ms)
+Completed 200 OK in 48ms (Views: 47.4ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-24 00:58:49 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (2.2ms)
+Completed 200 OK in 49ms (Views: 48.7ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-24 00:59:14 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (2.2ms)
+Completed 200 OK in 48ms (Views: 47.0ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-24 00:59:46 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (2.1ms)
+Completed 200 OK in 48ms (Views: 47.6ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-24 01:01:19 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (2.3ms)
+Completed 200 OK in 51ms (Views: 50.5ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-24 01:01:33 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (2.3ms)
+Completed 200 OK in 50ms (Views: 49.3ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-24 01:01:44 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (2.2ms)
+Completed 200 OK in 56ms (Views: 55.4ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-24 01:19:17 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (3.0ms)
+Completed 200 OK in 59ms (Views: 57.8ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-24 01:19:42 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (2.5ms)
+Completed 200 OK in 66ms (Views: 65.1ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-24 01:19:56 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (2.4ms)
+Completed 200 OK in 52ms (Views: 51.1ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-24 01:20:07 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (2.7ms)
+Completed 200 OK in 51ms (Views: 50.5ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-24 01:21:43 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (2.1ms)
+Completed 200 OK in 44ms (Views: 43.8ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-24 01:51:46 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (1.0ms)
+Completed 200 OK in 4711ms (Views: 4709.5ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-24 01:52:15 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (2.6ms)
+Completed 200 OK in 50ms (Views: 49.5ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-24 01:53:42 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (2.1ms)
+Completed 200 OK in 51ms (Views: 50.1ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-24 01:54:22 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (2.5ms)
+Completed 200 OK in 49ms (Views: 48.3ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-24 01:56:04 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (0.7ms)
+Completed 200 OK in 59ms (Views: 58.0ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-24 01:57:21 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (3.2ms)
+Completed 200 OK in 54ms (Views: 53.2ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-24 01:58:25 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (2.3ms)
+Completed 200 OK in 55ms (Views: 54.0ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-24 01:59:10 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (2.6ms)
+Completed 200 OK in 59ms (Views: 58.5ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-24 01:59:23 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (1.9ms)
+Completed 200 OK in 45ms (Views: 44.1ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-24 01:59:33 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (2.2ms)
+Completed 200 OK in 50ms (Views: 49.0ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-24 01:59:45 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (1.9ms)
+Completed 200 OK in 62ms (Views: 61.4ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-24 02:46:47 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (4.1ms)
+Completed 200 OK in 82ms (Views: 80.6ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-24 02:48:55 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (2.5ms)
+Completed 200 OK in 4072ms (Views: 4071.6ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-24 03:02:55 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (3.8ms)
+Completed 200 OK in 4062ms (Views: 4061.1ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-24 03:03:32 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (2.0ms)
+Completed 200 OK in 47ms (Views: 46.6ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-24 03:04:45 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  Rendered home/index.html.erb within layouts/home_layout (3.4ms)
+Completed 200 OK in 51ms (Views: 50.5ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-24 03:04:48 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  Rendered home/index.html.erb within layouts/home_layout (3.2ms)
+Completed 200 OK in 47ms (Views: 46.3ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-24 03:05:14 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  Rendered home/index.html.erb within layouts/home_layout (3.3ms)
+Completed 200 OK in 50ms (Views: 49.8ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-24 03:05:24 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (2.2ms)
+Completed 200 OK in 51ms (Views: 50.9ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-24 03:07:16 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (2.7ms)
+Completed 200 OK in 55ms (Views: 54.0ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-24 03:07:25 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (2.5ms)
+Completed 200 OK in 57ms (Views: 55.9ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-24 03:12:06 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (2.1ms)
+Completed 200 OK in 50ms (Views: 49.3ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-24 03:15:22 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (2.3ms)
+Completed 200 OK in 65ms (Views: 64.3ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-24 03:15:47 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (2.2ms)
+Completed 200 OK in 57ms (Views: 56.2ms)
+
+
+Started GET "/biograf%C3%ADa" for 181.136.72.228 at 2018-01-24 03:16:00 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#about_me as HTML
+  Rendering home/about_me.html.erb within layouts/general_layout
+  Rendered home/about_me.html.erb within layouts/general_layout (2.0ms)
+Completed 200 OK in 47ms (Views: 46.5ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-24 03:20:45 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  Rendered home/index.html.erb within layouts/home_layout (3.8ms)
+Completed 200 OK in 54ms (Views: 53.2ms)
+
+

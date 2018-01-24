@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="">
 	<meta name="author" content="">
-	<title>Arte Borja</title>
+	<title><%= @page_name %></title>
 	
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
@@ -63,8 +63,8 @@
 	<footer>
 		<div class="container text-center">
 			<p class="credits">
-				Copyright &copy; <%= @arteBorja %> <%= Time.now.year %><br/>
-				---
+				Copyright &copy; <%= @page_name %> <%= Time.now.year %><br/>
+				<%= @lema %>
 			</p>
 		</div>
 	</footer>

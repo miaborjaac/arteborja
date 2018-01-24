@@ -5,10 +5,10 @@
     		<div class="row">
     			<div class="col-md-8 col-md-offset-2">
     				<h1 class="brand-heading">
-    					<%= image_tag("title.PNG", alt: 'Anibal Borja', class: "mx-auto", style: "width: 10em; height: 4em;") %>
+    					<%= image_tag("3.PNG", alt: 'Anibal Borja', class: "mx-auto", style: "width: 10em; height: 4em;") %>
     				</h1>
     				<p class="intro-text">
-    					------
+    					<%= @lema %>
     				</p>
     				<a href="#about" class="btn btn-circle page-scroll">
     				    <i class="fa fa-angle-double-down animated"></i>
@@ -34,7 +34,7 @@
 					Maestro en Bellas Artes, con especialización en Pintura. Egresado de la Universidad Nacional de Colombia.
 				</p>
 				<p>
-					<a href="#" class="btnghost"><i class="fa fa-plus"></i> Saber más</a>
+					<a href="/biografía" class="btnghost"><i class="fa fa-plus"></i> Saber más</a>
 				</p>
 			</div>
 		</div>
@@ -115,7 +115,7 @@
 			<div class="col-lg-8 col-lg-offset-2">
 				<h2>Servicios</h2>
 				<p>
-					 Podrás solicitar un servicio artístico en las diferentes modalidades que ofrece <i><%= @arteBorja %></i>.
+					 Podrás solicitar un servicio artístico en las diferentes modalidades que ofrece <i><%= @page_name %></i>.
 				</p>
 				<ul class="list-inline banner-social-buttons">
 					<li>
@@ -134,7 +134,7 @@
 			<div class="col-lg-8 col-lg-offset-2">
 				<h2>Comunidad</h2>
 				<p>
-					 Participa en la comunidad de <i><%= @arteBorja %></i>. Podrás observar las opiniones de las demás personas y comentar lo que piensas.
+					 Participa en la comunidad de <i><%= @page_name %></i>. Podrás observar las opiniones de las demás personas y comentar lo que piensas.
 				</p>
 				<ul class="list-inline banner-social-buttons">
 					<li>
@@ -143,7 +143,7 @@
 				</ul>
 				<br></br>
 				<p>
-					 También puedes seguir a <i><%= @arteBorja %></i> en redes sociales.
+					 También puedes seguir a <i><%= @page_name %></i> en redes sociales.
 				</p>
 				<ul class="list-inline banner-social-buttons">
 					<li>

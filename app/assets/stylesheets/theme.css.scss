@@ -53,6 +53,31 @@ a:hover,a:focus {
 .light {
 	font-weight:400;
 }
+#navbar-item-general-layout{
+	color: black; 	
+}
+
+//---------------
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+#circle-shape-example {
+	font-family: Open Sans, sans-serif; 
+  	margin: 2rem; 
+  	text-align: justify;
+}
+#circle-shape-example p { 
+	line-height: 1.8; 
+}
+#circle-shape-example .curve { 
+	width: 33%; height: auto;
+  	min-width: 150px;
+  	float: left;
+  	margin-right:2rem; 
+  	border-radius: 50%;
+  	-webkit-shape-outside:circle();
+  	shape-outside:circle();
+}
+//---------------------
+
 .navbar-custom {
 	margin-bottom:0;
 	border-bottom:1px solid rgba(255,255,255,.3);
@@ -154,7 +179,7 @@ a:hover,a:focus {
 		font-size:60px;
 		margin-top:90px;
 		margin-bottom:20px;
-		border-top:2px solid #fff;
+		border-top:0px solid #fff;
 		border-bottom:2px solid #fff;
 		display:inline-block;
 		padding:10px 0;

@@ -1,8 +1,7 @@
 Rails.application.routes.draw do
-  get 'home/about_me'
-
-  get 'home/index'
-
+  
+  get "biografía" => 'home#about_me'
+  
   root to: 'home#index'
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
