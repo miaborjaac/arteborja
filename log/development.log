@@ -450,3 +450,887 @@ Processing by HomeController#index as HTML
 Completed 200 OK in 48ms (Views: 47.2ms)
 
 
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreatePaints (20180129183046)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (2.2ms)[0m  [1m[35mCREATE TABLE "paints" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "category" varchar, "year" integer, "description" text, "comments" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (1.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180129183046"]]
+  [1m[35m (10.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mPaint Load (1.7ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/" for 181.136.72.228 at 2018-01-29 19:27:27 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.1.4) lib/active_record/migration.rb:576:in `check_pending!'
+activerecord (5.1.4) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 181.136.72.228 at 2018-01-29 19:27:28 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.1.4) lib/active_record/migration.rb:576:in `check_pending!'
+activerecord (5.1.4) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.4) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.4) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPaint Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "paints" WHERE "paints"."title" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mPaint Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "paints" WHERE "paints"."title" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPaint Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "paints" WHERE "paints"."title" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mPaint Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "paints" WHERE "paints"."title" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddImagePathToPaints (20180129194512)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.3ms)[0m  [1m[35mALTER TABLE "paints" ADD "image" varchar[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180129194512"]]
+  [1m[35m (10.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPaint Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "paints" WHERE "paints"."title" = ? LIMIT ?[0m  [["title", "Última cena"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mPaint Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "paints" WHERE "paints"."title" = ? LIMIT ?[0m  [["title", "Última cena"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPaint Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "paints" WHERE "paints"."title" = ? LIMIT ?[0m  [["title", "Última cena"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mPaint Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "paints" WHERE "paints"."title" = ? LIMIT ?[0m  [["title", "Última cena"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPaint Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "paints" WHERE "paints"."title" = ? LIMIT ?[0m  [["title", "Última cena"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mPaint Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "paints" WHERE "paints"."title" = ? LIMIT ?[0m  [["title", "Última cena"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPaint Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "paints" WHERE "paints"."title" = ? LIMIT ?[0m  [["title", "Última cena"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[36mPaint Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "paints" WHERE "paints"."title" = ? LIMIT ?[0m  [["title", "Última cena"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPaint Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "paints" WHERE "paints"."title" = ? LIMIT ?[0m  [["title", "Última cena"], ["LIMIT", 1]]
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "paints" ("title", "category", "year", "description", "created_at", "updated_at", "image") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["title", "Última cena"], ["category", "-"], ["year", 2012], ["description", "-"], ["created_at", "2018-01-29 19:59:16.483567"], ["updated_at", "2018-01-29 19:59:16.483567"], ["image", "-"]]
+  [1m[35m (10.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPaint Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "paints" WHERE "paints"."title" = ? AND ("paints"."id" != ?) LIMIT ?[0m  [["title", "Última cena"], ["id", 1], ["LIMIT", 1]]
+  [1m[36mPaint Load (0.4ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/" for 181.136.72.228 at 2018-01-29 20:01:05 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  Rendered home/index.html.erb within layouts/home_layout (1.0ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ubuntu/workspace/app/views/home/index.html.erb:158: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+                ^
+/home/ubuntu/workspace/app/views/home/index.html.erb:160: syntax error, unexpected keyword_end, expecting ')'
+          end
+             ^):
+  
+app/views/home/index.html.erb:158: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/home/index.html.erb:160: syntax error, unexpected keyword_end, expecting ')'
+app/controllers/home_controller.rb:6:in `index'
+Started GET "/" for 181.136.72.228 at 2018-01-29 20:02:39 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  Rendered home/index.html.erb within layouts/home_layout (6300.4ms)
+Completed 200 OK in 6407ms (Views: 6406.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/portfolio-item.html" for 181.136.72.228 at 2018-01-29 20:03:02 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/portfolio-item.html"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 181.136.72.228 at 2018-01-29 20:03:05 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  Rendered home/index.html.erb within layouts/home_layout (6.8ms)
+Completed 200 OK in 86ms (Views: 84.4ms | ActiveRecord: 0.0ms)
+
+
+  [1m[36mPaint Load (1.6ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mPaint Load (0.3ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPaint Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "paints" WHERE "paints"."title" = ? AND ("paints"."id" != ?) LIMIT ?[0m  [["title", "Última cena"], ["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.3ms)[0m  [1m[33mUPDATE "paints" SET "image" = ?, "updated_at" = ? WHERE "paints"."id" = ?[0m  [["image", "paints/última_cena.PNG"], ["updated_at", "2018-01-29 20:10:42.847886"], ["id", 1]]
+  [1m[35m (12.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPaint Load (0.3ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/" for 181.136.72.228 at 2018-01-29 20:11:26 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  Rendered home/index.html.erb within layouts/home_layout (324.6ms)
+Completed 500 Internal Server Error in 337ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (uninitialized constant ActionView::CompiledTemplates::Paints):
+    59: 			</li>
+    60: 			<li class="col-md-3">
+    61: 			    <a href="portfolio-item.html">
+    62: 			    	<%= image_tag(Paints.find(1).image, alt: 'Anibal Borja') %>
+    63: 			    	<img src="https://unsplash.it/680/380?random=1" alt="">
+    64: 			    </a>
+    65: 			</li>
+  
+app/views/home/index.html.erb:62:in `_app_views_home_index_html_erb___2819012476422871564_70150879669360'
+app/controllers/home_controller.rb:6:in `index'
+Started GET "/" for 181.136.72.228 at 2018-01-29 20:12:22 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  Rendered home/index.html.erb within layouts/home_layout (429.0ms)
+Completed 500 Internal Server Error in 444ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (uninitialized constant ActionView::CompiledTemplates::Paints):
+    59: 			</li>
+    60: 			<li class="col-md-3">
+    61: 			    <a href="portfolio-item.html">
+    62: 			    	<%= image_tag(Paints.find(1).image, alt: 'Anibal Borja') %>
+    63: 			    	<img src="https://unsplash.it/680/380?random=1" alt="">
+    64: 			    </a>
+    65: 			</li>
+  
+app/views/home/index.html.erb:62:in `_app_views_home_index_html_erb__2292582762990211039_33752020'
+app/controllers/home_controller.rb:6:in `index'
+Started GET "/" for 181.136.72.228 at 2018-01-29 20:12:32 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  [1m[36mPaint Load (0.3ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered home/index.html.erb within layouts/home_layout (32.3ms)
+Completed 200 OK in 216ms (Views: 214.3ms | ActiveRecord: 1.6ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+Started GET "/" for 181.136.72.228 at 2018-01-30 18:09:43 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.3ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered home/index.html.erb within layouts/home_layout (343.1ms)
+Completed 200 OK in 415ms (Views: 406.5ms | ActiveRecord: 1.5ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPaint Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "paints" WHERE "paints"."title" = ? LIMIT ?[0m  [["title", "Venecia"], ["LIMIT", 1]]
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "paints" ("title", "category", "year", "description", "created_at", "updated_at", "image") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["title", "Venecia"], ["category", "-"], ["year", 2012], ["description", "-"], ["created_at", "2018-01-30 18:10:44.326844"], ["updated_at", "2018-01-30 18:10:44.326844"], ["image", "paints/venecia.PNG"]]
+  [1m[35m (9.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPaint Load (0.6ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" LIMIT ?[0m  [["LIMIT", 11]]
+Started GET "/" for 181.136.72.228 at 2018-01-30 18:11:10 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.2ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered home/index.html.erb within layouts/home_layout (330.5ms)
+Completed 200 OK in 397ms (Views: 389.0ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-30 18:11:23 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.2ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered home/index.html.erb within layouts/home_layout (6.5ms)
+Completed 200 OK in 49ms (Views: 48.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-30 18:11:28 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.2ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered home/index.html.erb within layouts/home_layout (6.6ms)
+Completed 200 OK in 57ms (Views: 56.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-31 02:06:25 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.4ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.3ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.2ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.3ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.3ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.3ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered home/index.html.erb within layouts/home_layout (634.2ms)
+Completed 200 OK in 799ms (Views: 787.9ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-31 02:06:38 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.2ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.3ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered home/index.html.erb within layouts/home_layout (16.0ms)
+Completed 200 OK in 119ms (Views: 117.2ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-31 02:21:27 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.2ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.2ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered home/index.html.erb within layouts/home_layout (14.3ms)
+Completed 200 OK in 5967ms (Views: 5965.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-31 02:24:40 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.2ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.2ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered home/index.html.erb within layouts/home_layout (12.2ms)
+Completed 200 OK in 4295ms (Views: 4293.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-31 02:25:02 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.3ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.4ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered home/index.html.erb within layouts/home_layout (32.5ms)
+Completed 200 OK in 5174ms (Views: 5172.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-31 02:25:24 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.2ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.3ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered home/index.html.erb within layouts/home_layout (18.2ms)
+Completed 200 OK in 4412ms (Views: 4409.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-31 02:25:44 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.7ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.9ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered home/index.html.erb within layouts/home_layout (27.6ms)
+Completed 200 OK in 4498ms (Views: 4494.9ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-31 02:26:02 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.2ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.2ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered home/index.html.erb within layouts/home_layout (11.6ms)
+Completed 200 OK in 4192ms (Views: 4190.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-31 02:26:17 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.2ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.2ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered home/index.html.erb within layouts/home_layout (11.2ms)
+Completed 200 OK in 4463ms (Views: 4461.6ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-31 02:26:58 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.2ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.4ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered home/index.html.erb within layouts/home_layout (14.0ms)
+Completed 200 OK in 5020ms (Views: 5018.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-31 02:27:11 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.3ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.4ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered home/index.html.erb within layouts/home_layout (19.2ms)
+Completed 200 OK in 133ms (Views: 130.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-31 02:27:18 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.3ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.5ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered home/index.html.erb within layouts/home_layout (16.5ms)
+Completed 200 OK in 4982ms (Views: 4979.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-31 02:27:43 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.3ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.3ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered home/index.html.erb within layouts/home_layout (16.6ms)
+Completed 200 OK in 7077ms (Views: 6979.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-31 02:28:02 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.5ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.3ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.1ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered home/index.html.erb within layouts/home_layout (135.4ms)
+Completed 200 OK in 6699ms (Views: 6667.5ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/portfolio-item.html" for 181.136.72.228 at 2018-01-31 02:28:23 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/portfolio-item.html"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:20:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.11.0) lib/puma/configuration.rb:225:in `call'
+puma (3.11.0) lib/puma/server.rb:624:in `handle_request'
+puma (3.11.0) lib/puma/server.rb:438:in `process_client'
+puma (3.11.0) lib/puma/server.rb:302:in `block in run'
+puma (3.11.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 181.136.72.228 at 2018-01-31 02:28:25 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.2ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.3ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered home/index.html.erb within layouts/home_layout (39.6ms)
+Completed 200 OK in 174ms (Views: 170.0ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-31 02:28:31 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.2ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.2ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered home/index.html.erb within layouts/home_layout (12.0ms)
+Completed 200 OK in 54ms (Views: 52.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-31 02:28:42 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  [1m[35m (4.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (3.6ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (1.8ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.7ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered home/index.html.erb within layouts/home_layout (64.7ms)
+Completed 200 OK in 380ms (Views: 366.6ms | ActiveRecord: 11.4ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPaint Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "paints" WHERE "paints"."title" = ? LIMIT ?[0m  [["title", "Bodegón"], ["LIMIT", 1]]
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "paints" ("title", "category", "year", "description", "created_at", "updated_at", "image") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["title", "Bodegón"], ["category", "-"], ["year", 2012], ["description", "-"], ["created_at", "2018-01-31 02:29:40.268646"], ["updated_at", "2018-01-31 02:29:40.268646"], ["image", "paints/bodegón.PNG"]]
+  [1m[35m (19.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPaint Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "paints" WHERE "paints"."title" = ? LIMIT ?[0m  [["title", "Pastor"], ["LIMIT", 1]]
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "paints" ("title", "category", "year", "description", "created_at", "updated_at", "image") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["title", "Pastor"], ["category", "-"], ["year", 2012], ["description", "-"], ["created_at", "2018-01-31 02:33:09.781493"], ["updated_at", "2018-01-31 02:33:09.781493"], ["image", "paints/pastor.PNG"]]
+  [1m[35m (12.7ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for 181.136.72.228 at 2018-01-31 02:33:29 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.3ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.2ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.2ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.2ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.2ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.2ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered home/index.html.erb within layouts/home_layout (489.3ms)
+Completed 200 OK in 572ms (Views: 556.0ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-31 02:33:36 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.2ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.3ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.3ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendered home/index.html.erb within layouts/home_layout (181.3ms)
+Completed 200 OK in 227ms (Views: 224.7ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-31 02:34:04 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.2ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.3ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.2ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered home/index.html.erb within layouts/home_layout (14.1ms)
+Completed 200 OK in 193ms (Views: 191.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-31 02:34:10 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.2ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.2ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.1ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.2ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered home/index.html.erb within layouts/home_layout (13.3ms)
+Completed 200 OK in 96ms (Views: 94.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-31 02:34:13 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.2ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.2ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.2ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered home/index.html.erb within layouts/home_layout (14.2ms)
+Completed 200 OK in 188ms (Views: 185.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-31 02:34:18 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.3ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.2ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.2ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered home/index.html.erb within layouts/home_layout (13.9ms)
+Completed 200 OK in 159ms (Views: 156.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-31 02:34:22 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.2ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.2ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.2ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.2ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered home/index.html.erb within layouts/home_layout (13.3ms)
+Completed 200 OK in 209ms (Views: 207.6ms | ActiveRecord: 1.3ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPaint Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "paints" WHERE "paints"."title" = ? LIMIT ?[0m  [["title", "Toño"], ["LIMIT", 1]]
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "paints" ("title", "category", "year", "description", "created_at", "updated_at", "image") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["title", "Toño"], ["category", "-"], ["year", 1985], ["description", "-"], ["created_at", "2018-01-31 02:42:20.266596"], ["updated_at", "2018-01-31 02:42:20.266596"], ["image", "paints/toño.PNG"]]
+  [1m[35m (18.8ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for 181.136.72.228 at 2018-01-31 02:42:30 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.4ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.2ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.2ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.2ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.2ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.2ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  Rendered home/index.html.erb within layouts/home_layout (296.9ms)
+Completed 200 OK in 392ms (Views: 381.6ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/" for 181.136.72.228 at 2018-01-31 02:42:49 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.3ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.4ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mCACHE Paint Load (0.0ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.6ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35mCACHE  (0.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.4ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  Rendered home/index.html.erb within layouts/home_layout (26.8ms)
+Completed 200 OK in 141ms (Views: 137.8ms | ActiveRecord: 2.5ms)
+
+
