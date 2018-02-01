@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   
+  resources :paints
   get "biografía" => 'home#about_me'
   
   root to: 'home#index'

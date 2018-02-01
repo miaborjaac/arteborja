@@ -58,34 +58,28 @@
 				<br>
 			</li>
 			<li class="col-md-3">
-			    <a href="portfolio-item.html">
-			    	<%= image_tag(Paint.find(rand(1..Paint.count)).image, alt: 'Paint image') %>
-			    </a>
+				<% rnd_img = Paint.find(rand(1..Paint.count)) %>
+				<%= image_tag(rnd_img.image, alt: rnd_img.title, id: "myImg", class: "myImg") %>
 			</li>
 			<li class="col-md-3">
-    			<a href="portfolio-item.html">
-    				<%= image_tag(Paint.find(rand(1..Paint.count)).image, alt: 'Paint image') %>
-    			</a>
+    			<% rnd_img = Paint.find(rand(1..Paint.count)) %>
+				<%= image_tag(rnd_img.image, alt: rnd_img.title, id: "myImg", class: "myImg") %>
 			</li>
 			<li class="col-md-3">
-			    <a href="portfolio-item.html">
-			    	<%= image_tag(Paint.find(rand(1..Paint.count)).image, alt: 'Paint image') %>
-			    </a>
+			    <% rnd_img = Paint.find(rand(1..Paint.count)) %>
+				<%= image_tag(rnd_img.image, alt: rnd_img.title, id: "myImg", class: "myImg") %>
 			</li>
 			<li class="col-md-3">
-    			<a class="image" href="portfolio-item.html">
-    				<%= image_tag(Paint.find(rand(1..Paint.count)).image, alt: 'Paint image') %>
-    			</a>
+    			<% rnd_img = Paint.find(rand(1..Paint.count)) %>
+				<%= image_tag(rnd_img.image, alt: rnd_img.title, id: "myImg", class: "myImg") %>
 			</li>
 			<li class="col-md-3">
-    			<a href="portfolio-item.html">
-    				<%= image_tag(Paint.find(rand(1..Paint.count)).image, alt: 'Paint image') %>
-    			</a>
+    			<% rnd_img = Paint.find(rand(1..Paint.count)) %>
+				<%= image_tag(rnd_img.image, alt: rnd_img.title, id: "myImg", class: "myImg") %>
 			</li>
 			<li class="col-md-3">
-    			<a href="portfolio-item.html">
-    				<%= image_tag(Paint.find(rand(1..Paint.count)).image, alt: 'Paint image') %>
-    			</a>
+    			<% rnd_img = Paint.find(rand(1..Paint.count)) %>
+				<%= image_tag(rnd_img.image, alt: rnd_img.title, id: "myImg", class: "myImg") %>
 			</li>
 			<li class="col-md-3">
     			<a href="portfolio-item.html">
@@ -153,3 +147,10 @@
 		</div>
 	</div>
 </section>
+
+<!-- Modal for images -->
+<div id="myModalImages" class="modal">
+  <span id="modalSpan" class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>

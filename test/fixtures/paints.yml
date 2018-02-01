@@ -6,6 +6,7 @@ one:
   year: 1
   description: MyText
   comments: MyText
+  image: MyString
 
 two:
   title: MyString
@@ -13,3 +14,4 @@ two:
   year: 1
   description: MyText
   comments: MyText
+  image: MyString
