@@ -48,48 +48,45 @@
 		<br><br><br><br>
 		<ul>
 			<li class="col-md-12" style="text-align: center;">
-				<p class="col-md-8">
-					Pinturas <b>&middot</b> Retratos <b>&middot</b> Paisajes <b>&middot</b> Bodegones <b>&middot</b> Reproducciones <b>&middot</b> 
-					Y mucho más
+				<p class="col-md-12 col-sm-6">
+					Podrás ver todas las obras de <b><i><%= @page_name %></i></b> en la galería.
 				</p>
-				<p class="col-md-4">
+				<p class="col-md-12 col-sm-6">
 					<button type="button" class="btn btn-info">Acceder a galería</button>
 				</p>
 				<br>
 			</li>
-			<li class="col-md-3">
+			<li class="col-md-3 col-sm-6">
 				<% rnd_img = Paint.find(rand(1..Paint.count)) %>
-				<%= image_tag(rnd_img.image, alt: rnd_img.title, id: "myImg", class: "myImg") %>
+				<%= image_tag(rnd_img.image, alt: rnd_img.title, id: "myImg", class: "myImg", onclick: "paintZoomIn(this);") %>
 			</li>
-			<li class="col-md-3">
+			<li class="col-md-3 col-sm-6">
     			<% rnd_img = Paint.find(rand(1..Paint.count)) %>
-				<%= image_tag(rnd_img.image, alt: rnd_img.title, id: "myImg", class: "myImg") %>
+				<%= image_tag(rnd_img.image, alt: rnd_img.title, id: "myImg", class: "myImg", onclick: "paintZoomIn(this);") %>
 			</li>
-			<li class="col-md-3">
+			<li class="col-md-3 col-sm-6">
 			    <% rnd_img = Paint.find(rand(1..Paint.count)) %>
-				<%= image_tag(rnd_img.image, alt: rnd_img.title, id: "myImg", class: "myImg") %>
+				<%= image_tag(rnd_img.image, alt: rnd_img.title, id: "myImg", class: "myImg", onclick: "paintZoomIn(this);") %>
 			</li>
-			<li class="col-md-3">
+			<li class="col-md-3 col-sm-6">
     			<% rnd_img = Paint.find(rand(1..Paint.count)) %>
-				<%= image_tag(rnd_img.image, alt: rnd_img.title, id: "myImg", class: "myImg") %>
+				<%= image_tag(rnd_img.image, alt: rnd_img.title, id: "myImg", class: "myImg", onclick: "paintZoomIn(this);") %>
 			</li>
-			<li class="col-md-3">
+			<li class="col-md-3 col-sm-6">
     			<% rnd_img = Paint.find(rand(1..Paint.count)) %>
-				<%= image_tag(rnd_img.image, alt: rnd_img.title, id: "myImg", class: "myImg") %>
+				<%= image_tag(rnd_img.image, alt: rnd_img.title, id: "myImg", class: "myImg", onclick: "paintZoomIn(this);") %>
 			</li>
-			<li class="col-md-3">
+			<li class="col-md-3 col-sm-6">
     			<% rnd_img = Paint.find(rand(1..Paint.count)) %>
-				<%= image_tag(rnd_img.image, alt: rnd_img.title, id: "myImg", class: "myImg") %>
+    			<%= image_tag(rnd_img.image, alt: rnd_img.title, id: "myImg", class: "myImg", onclick: "paintZoomIn(this);") %>
 			</li>
-			<li class="col-md-3">
-    			<a href="portfolio-item.html">
-    			    <img src="https://unsplash.it/680/380?random=7" alt="">
-    			</a>
+			<li class="col-md-3 col-sm-6">
+    			<% rnd_img = Paint.find(rand(1..Paint.count)) %>
+  				<%= image_tag(rnd_img.image, alt: rnd_img.title, id: "myImg", class: "myImg", onclick: "paintZoomIn(this);") %>
 			</li>
-			<li class="col-md-3">
-			    <a href="portfolio-item.html">
-    			    <img src="https://unsplash.it/680/380?random=8" alt="">
-    			</a>
+			<li class="col-md-3 col-sm-6">
+			    <% rnd_img = Paint.find(rand(1..Paint.count)) %>
+   				<%= image_tag(rnd_img.image, alt: rnd_img.title, id: "myImg", class: "myImg", onclick: "paintZoomIn(this);") %>
 			</li>
 		</ul>
 	</div>
@@ -102,7 +99,7 @@
 			<div class="col-lg-8 col-lg-offset-2">
 				<h2>Servicios</h2>
 				<p>
-					 Podrás solicitar un servicio artístico en las diferentes modalidades que ofrece <i><%= @page_name %></i>.
+					 Podrás solicitar un servicio artístico en las diferentes modalidades que ofrece <b><i><%= @page_name %></i></b>.
 				</p>
 				<ul class="list-inline banner-social-buttons">
 					<li>
@@ -121,7 +118,7 @@
 			<div class="col-lg-8 col-lg-offset-2">
 				<h2>Comunidad</h2>
 				<p>
-					 Participa en la comunidad de <i><%= @page_name %></i>. Podrás observar las opiniones de las demás personas y comentar lo que piensas.
+					 Participa en la comunidad de <b><i><%= @page_name %></i></b>. Podrás observar las opiniones de las demás personas y comentar lo que piensas.
 				</p>
 				<ul class="list-inline banner-social-buttons">
 					<li>
@@ -130,7 +127,7 @@
 				</ul>
 				<br></br>
 				<p>
-					 También puedes seguir a <i><%= @page_name %></i> en redes sociales.
+					 También puedes seguir a <b><i><%= @page_name %></i></b> en redes sociales.
 				</p>
 				<ul class="list-inline banner-social-buttons">
 					<li>
@@ -149,8 +146,7 @@
 </section>
 
 <!-- Modal for images -->
-<div id="myModalImages" class="modal">
-  <span id="modalSpan" class="close">&times;</span>
+<div id="myModalImages" class="modal" onclick="paintZoomOut(this);">
   <img class="modal-content" id="img01">
   <div id="caption"></div>
 </div>

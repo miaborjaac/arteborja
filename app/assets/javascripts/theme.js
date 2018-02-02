@@ -1,3 +1,20 @@
+//--------------------------- For the image modal ------------------
+
+
+function paintZoomIn (e){
+    $('.navbar').hide();
+    $('#myModalImages').css('display', 'block');
+    $('#img01').attr('src', e.src);
+    $('#caption').html(e.alt);    
+}
+
+function paintZoomOut (e){
+    $('.navbar').show();
+    $(e).css('display', 'none');
+}
+
+//------------------------------------------------------------
+
 // jQuery to collapse the navbar on scroll
 $(window).scroll(function() {
     if ($(".navbar").offset().top > 100) {
@@ -22,24 +39,3 @@ $(function() {
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
-
-
-//--------------------------- For the image modal ------------------
-
-$( document ).ready(function() {
-    $(".myImg").click(function(){
-        $('.navbar').hide();
-        $('#myModalImages').css('display', 'block');
-        $('#img01').attr('src', this.src);
-        $('#caption').html(this.alt);
-    });
-    
-    var span = document.getElementsByClassName("close")[0];
-
-    $('.close').click(function() {
-        $('#myModalImages').css('display', 'none');
-    });
-});
-
-
-//------------------------------------------------------------
