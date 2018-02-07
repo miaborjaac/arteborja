@@ -12,4 +12,7 @@ class HomeController < ApplicationController
     @section = "- Biografía"
     render :layout => 'general_layout'
   end
+  
+  def forum
+  end
 end

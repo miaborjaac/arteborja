@@ -10,5 +10,10 @@ class HomeControllerTest < ActionDispatch::IntegrationTest
     get home_about_me_url
     assert_response :success
   end
+  
+  test "should get forum" do
+    get home_forum_url
+    assert_response :success
+  end
 
 end
