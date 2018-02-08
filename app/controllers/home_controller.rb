@@ -7,12 +7,16 @@ class HomeController < ApplicationController
   end
 
   def about_me
-    @page_name = "Borja ~pintor~"
+    @page_name = "Borja ~pintor"
     @lema = "Realismo sensacional de la magia volumétrica."
     @section = "- Biografía"
     render :layout => 'general_layout'
   end
   
   def forum
+    @page_name = "Borja ~pintor"
+    @lema = "Realismo sensacional de la magia volumétrica."
+    @section = "- Comunidad"
+    render :layout => 'general_layout'
   end
 end

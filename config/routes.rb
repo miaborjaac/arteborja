@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   
   resources :posts
-  get 'home/forum'
+  get "comunidad" => 'home#forum'
 
   resources :paints
   get "biografía" => 'home#about_me'
