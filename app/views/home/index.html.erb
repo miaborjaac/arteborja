@@ -31,7 +31,7 @@
 			</div>
 			<div class="col-lg-8 col-lg-offset-2">
 				<p>
-					Maestro en Bellas Artes, con especialización en Pintura. Egresado de la Universidad Nacional de Colombia.
+					Maestro en Bellas Artes, con especialización en Pintura. <br/> Universidad Nacional de Colombia.
 				</p>
 				<p>
 					<a href="/biografía" class="btnghost"><i class="fa fa-plus"></i> Saber más</a>
@@ -56,38 +56,49 @@
 				</p>
 				<br>
 			</li>
-			<li class="col-md-3 col-sm-6">
-				<% rnd_img = Paint.find(rand(1..Paint.count)) %>
-				<%= image_tag(rnd_img.image, alt: rnd_img.title, id: "myImg", class: "myImg", onclick: "paintZoomIn(this);") %>
-			</li>
-			<li class="col-md-3 col-sm-6">
-    			<% rnd_img = Paint.find(rand(1..Paint.count)) %>
-				<%= image_tag(rnd_img.image, alt: rnd_img.title, id: "myImg", class: "myImg", onclick: "paintZoomIn(this);") %>
-			</li>
-			<li class="col-md-3 col-sm-6">
-			    <% rnd_img = Paint.find(rand(1..Paint.count)) %>
-				<%= image_tag(rnd_img.image, alt: rnd_img.title, id: "myImg", class: "myImg", onclick: "paintZoomIn(this);") %>
-			</li>
-			<li class="col-md-3 col-sm-6">
-    			<% rnd_img = Paint.find(rand(1..Paint.count)) %>
-				<%= image_tag(rnd_img.image, alt: rnd_img.title, id: "myImg", class: "myImg", onclick: "paintZoomIn(this);") %>
-			</li>
-			<li class="col-md-3 col-sm-6">
-    			<% rnd_img = Paint.find(rand(1..Paint.count)) %>
-				<%= image_tag(rnd_img.image, alt: rnd_img.title, id: "myImg", class: "myImg", onclick: "paintZoomIn(this);") %>
-			</li>
-			<li class="col-md-3 col-sm-6">
-    			<% rnd_img = Paint.find(rand(1..Paint.count)) %>
-    			<%= image_tag(rnd_img.image, alt: rnd_img.title, id: "myImg", class: "myImg", onclick: "paintZoomIn(this);") %>
-			</li>
-			<li class="col-md-3 col-sm-6">
-    			<% rnd_img = Paint.find(rand(1..Paint.count)) %>
-  				<%= image_tag(rnd_img.image, alt: rnd_img.title, id: "myImg", class: "myImg", onclick: "paintZoomIn(this);") %>
-			</li>
-			<li class="col-md-3 col-sm-6">
-			    <% rnd_img = Paint.find(rand(1..Paint.count)) %>
-   				<%= image_tag(rnd_img.image, alt: rnd_img.title, id: "myImg", class: "myImg", onclick: "paintZoomIn(this);") %>
-			</li>
+			
+			<div class="col-lg-12" id="imageGrid">
+				<div class="col-lg-3 col-md-6 col-sm-6" id="imageGrid1">
+					<% rnd_img = Paint.where(:image => "paints/pastor.PNG") %>
+					<%= image_tag(rnd_img[0].image, alt: rnd_img[0].title, id: "myImg", class: "myImg", onclick: "paintZoomIn(this);") %>
+				</div>
+				<div class="col-lg-9 col-md-6 col-sm-6" id="imageGrid2">
+					<div class="col-lg-12" id="imageGrid2_1">
+						<div class="col-lg-6 col-md-12 col-sm-12">
+							<% rnd_img = Paint.find(rand(1..Paint.count)) %>
+							<%= image_tag(rnd_img.image, alt: rnd_img.title, id: "myImg", class: "myImg", onclick: "paintZoomIn(this);") %>
+						</div>
+						<div class="col-lg-6 col-md-12 col-sm-12">
+							<% rnd_img = Paint.find(rand(1..Paint.count)) %>
+							<%= image_tag(rnd_img.image, alt: rnd_img.title, id: "myImg", class: "myImg", onclick: "paintZoomIn(this);") %>
+						</div>
+					</div>
+					<div class="col-lg-12" id="imageGrid2_2">
+						<div class="col-lg-4 col-md-12 col-sm-12">
+							<% rnd_img = Paint.find(rand(1..Paint.count)) %>
+							<%= image_tag(rnd_img.image, alt: rnd_img.title, id: "myImg", class: "myImg", onclick: "paintZoomIn(this);") %>
+						</div>
+						<div class="col-lg-4 col-md-12 col-sm-12">
+							<% rnd_img = Paint.find(rand(1..Paint.count)) %>
+							<%= image_tag(rnd_img.image, alt: rnd_img.title, id: "myImg", class: "myImg", onclick: "paintZoomIn(this);") %>
+						</div>
+						<div class="col-lg-4 col-md-12 col-sm-12">
+							<% rnd_img = Paint.find(rand(1..Paint.count)) %>
+							<%= image_tag(rnd_img.image, alt: rnd_img.title, id: "myImg", class: "myImg", onclick: "paintZoomIn(this);") %>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-12" id="imageGrid3">
+					<div class="col-lg-6 col-md-6 col-sm-6">
+						<% rnd_img = Paint.find(rand(1..Paint.count)) %>
+						<%= image_tag(rnd_img.image, alt: rnd_img.title, id: "myImg", class: "myImg", onclick: "paintZoomIn(this);") %>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6">
+						<% rnd_img = Paint.find(rand(1..Paint.count)) %>
+						<%= image_tag(rnd_img.image, alt: rnd_img.title, id: "myImg", class: "myImg", onclick: "paintZoomIn(this);") %>
+					</div>
+				</div>
+			</div>
 		</ul>
 	</div>
 </section>
