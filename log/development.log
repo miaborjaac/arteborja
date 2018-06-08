@@ -7797,3 +7797,421 @@ Processing by HomeController#forum as HTML
 Completed 200 OK in 52ms (Views: 51.4ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 181.136.72.228 at 2018-02-09 01:29:43 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/home_layout
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 01:29:44 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (0.5ms)
+Completed 200 OK in 9360ms (Views: 9358.9ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.5ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.3ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.3ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.3ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.3ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.3ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.4ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "paints"[0m
+  [1m[36mPaint Load (0.3ms)[0m  [1m[34mSELECT  "paints".* FROM "paints" WHERE "paints"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered home/index.html.erb within layouts/home_layout (10309.0ms)
+Completed 200 OK in 10396ms (Views: 10381.4ms | ActiveRecord: 6.6ms)
+
+
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 01:30:34 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (1.0ms)
+Completed 200 OK in 1931ms (Views: 1929.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 01:31:33 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (0.6ms)
+Completed 200 OK in 6022ms (Views: 6021.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 01:31:53 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (0.7ms)
+Completed 200 OK in 2194ms (Views: 2193.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 01:32:23 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (0.8ms)
+Completed 200 OK in 66ms (Views: 65.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 01:36:12 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (0.7ms)
+Completed 200 OK in 75ms (Views: 74.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 01:43:34 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (0.6ms)
+Completed 200 OK in 4315ms (Views: 4314.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 01:44:25 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (0.5ms)
+Completed 200 OK in 1065ms (Views: 1064.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 01:45:20 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (0.6ms)
+Completed 200 OK in 5489ms (Views: 5488.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 02:17:09 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (0.8ms)
+Completed 200 OK in 102ms (Views: 100.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 02:18:08 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (0.6ms)
+Completed 200 OK in 56ms (Views: 54.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 02:18:49 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (0.5ms)
+Completed 200 OK in 53ms (Views: 52.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 02:20:07 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (0.5ms)
+Completed 200 OK in 47ms (Views: 46.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 02:20:22 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (0.9ms)
+Completed 200 OK in 71ms (Views: 69.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 02:20:36 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (0.9ms)
+Completed 200 OK in 62ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 02:26:17 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (0.6ms)
+Completed 200 OK in 52ms (Views: 51.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 02:30:11 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (0.6ms)
+Completed 200 OK in 63ms (Views: 62.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 02:34:39 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (1.4ms)
+Completed 200 OK in 4910ms (Views: 4909.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 02:35:21 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (0.6ms)
+Completed 200 OK in 4981ms (Views: 4979.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 02:36:15 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (0.5ms)
+Completed 200 OK in 5187ms (Views: 5185.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 02:36:48 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (0.6ms)
+Completed 200 OK in 51ms (Views: 49.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 02:37:10 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (1.6ms)
+Completed 200 OK in 50ms (Views: 49.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 02:37:20 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (1.4ms)
+Completed 200 OK in 126ms (Views: 124.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 02:37:48 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (0.6ms)
+Completed 200 OK in 990ms (Views: 988.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 02:38:01 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (0.5ms)
+Completed 200 OK in 4747ms (Views: 4746.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 02:38:18 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (0.6ms)
+Completed 200 OK in 4946ms (Views: 4945.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 02:38:40 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (1.5ms)
+Completed 200 OK in 783ms (Views: 776.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 02:39:28 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (0.8ms)
+Completed 200 OK in 5560ms (Views: 5558.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 02:39:44 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (0.6ms)
+Completed 200 OK in 4491ms (Views: 4484.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 02:43:15 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (0.8ms)
+Completed 200 OK in 4223ms (Views: 4222.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 02:45:55 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (0.7ms)
+Completed 200 OK in 4392ms (Views: 4391.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 02:46:58 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (0.5ms)
+Completed 200 OK in 4356ms (Views: 4355.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 02:47:25 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (1.1ms)
+Completed 200 OK in 5156ms (Views: 5155.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 02:47:43 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (0.7ms)
+Completed 200 OK in 4144ms (Views: 4143.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 02:48:03 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (0.5ms)
+Completed 200 OK in 4214ms (Views: 4213.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 02:48:23 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (0.6ms)
+Completed 200 OK in 4193ms (Views: 4192.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 02:50:21 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (0.6ms)
+Completed 200 OK in 4777ms (Views: 4776.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 02:50:44 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (0.6ms)
+Completed 200 OK in 4575ms (Views: 4574.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 02:51:02 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (0.6ms)
+Completed 200 OK in 4634ms (Views: 4633.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 03:03:07 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (0.8ms)
+Completed 200 OK in 58ms (Views: 57.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 03:04:07 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (0.5ms)
+Completed 200 OK in 53ms (Views: 52.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 03:07:17 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (0.6ms)
+Completed 200 OK in 4463ms (Views: 4462.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 03:07:37 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (0.6ms)
+Completed 200 OK in 4285ms (Views: 4284.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 03:08:16 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (0.6ms)
+Completed 200 OK in 53ms (Views: 51.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 03:08:42 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (0.5ms)
+Completed 200 OK in 4347ms (Views: 4346.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 03:08:59 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (0.8ms)
+Completed 200 OK in 4489ms (Views: 4488.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 03:09:19 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (0.7ms)
+Completed 200 OK in 4180ms (Views: 4179.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 03:14:53 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (0.9ms)
+Completed 200 OK in 79ms (Views: 78.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/comunidad" for 181.136.72.228 at 2018-02-09 03:15:53 +0000
+Cannot render console from 181.136.72.228! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#forum as HTML
+  Rendering home/forum.html.erb within layouts/general_layout
+  Rendered home/forum.html.erb within layouts/general_layout (0.8ms)
+Completed 200 OK in 56ms (Views: 55.3ms | ActiveRecord: 0.0ms)
+
+

@@ -500,9 +500,7 @@ hr {
 #myImg {
     cursor: zoom-in;
     transition: 0.3s;
-    
 }
-
 #myImg:hover {opacity: 0.7;}
 
 /* The Modal (background) */
@@ -637,6 +635,40 @@ hr {
 }
 .post .post-description .stats .stat-item .icon {
   margin-right: 8px;
+}
+#dislikesBtn {
+	border:1px solid #F34346;
+	color:#F34346;
+	background-color:transparent;
+}
+#dislikesBtn:hover,#dislikesBtn:focus {
+	border:1px solid #F34346;
+	outline:0;
+	color:#fff;
+	background-color:#F34346;
+}
+#likesBtn {
+	border:1px solid #2BA71E;
+	color:#2BA71E;
+	background-color:transparent;
+}
+#likesBtn:hover,#dislikesBtn:focus {
+	border:1px solid #2BA71E;
+	outline:0;
+	color:#fff;
+	background-color:#2BA71E;
+}
+#replyBtn {
+	border:1px solid #f0ad4e;
+	border-radius: 10px;
+	color:#f0ad4e;
+	background-color:transparent;
+}
+#replyBtn:hover,#replyBtn:focus {
+	border:1px solid #f0ad4e;
+	outline:0;
+	color:#fff;
+	background-color:#f0ad4e;
 }
 .post .post-footer {
   border-top: 1px solid #ddd;
