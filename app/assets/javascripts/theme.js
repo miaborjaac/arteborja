@@ -1,3 +1,20 @@
+//--------------------------- For the image modal ------------------
+
+
+function paintZoomIn (e){
+    $('.navbar').hide();
+    $('#myModalImages').css('display', 'block');
+    $('#img01').attr('src', e.src);
+    $('#caption').html(e.alt);    
+}
+
+function paintZoomOut (e){
+    $('.navbar').show();
+    $(e).css('display', 'none');
+}
+
+//------------------------------------------------------------
+
 // jQuery to collapse the navbar on scroll
 $(window).scroll(function() {
     if ($(".navbar").offset().top > 100) {
