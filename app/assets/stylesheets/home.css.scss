@@ -101,7 +101,12 @@ a:hover,a:focus {
 .navbar-custom .navbar-brand .navbar-toggle:focus,.navbar-custom .navbar-brand .navbar-toggle:active {
 	outline:0;
 }
-.navbar-custom a {
+.navbar-header a{
+	height: 10px;
+}
+.navbar-custom .navbar-header a img{
+	width: 10em; 
+	height: 4em;
 }
 .navbar-custom .nav li a {
 	-webkit-transition:background .3s ease-in-out;
@@ -145,6 +150,28 @@ a:hover,a:focus {
 	.navbar-custom.top-nav-collapse a {
 		color:#333;
 		display:inline-block;
+	}
+}
+@media(max-width:768px) {
+	.navbar-custom .navbar-header a{
+		margin-left: 50px;
+	}
+}
+@media(max-width:499px) {
+	.navbar-custom .navbar-header a{
+		margin-left: 10px;
+	}
+}
+@media(max-width:349px) {
+	.navbar-custom .navbar-header a{
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+	.navbar-custom .navbar-header a img{
+		width: 7em; 
+		height: 3em;
+		margin-top: 10px;
+		margin-left: 10px;
 	}
 }
 .intro {
@@ -317,6 +344,40 @@ footer p.credits {
 	font-size:13px;
 	letter-spacing:3px;
 }
+.twitter, .facebook, .google{
+	border:2px solid #333;
+	background-color:transparent;
+	padding:15px 20px;
+	letter-spacing:3px;
+	font-size:12px;
+	text-transform:uppercase;
+	font-weight:400;
+	color: white;
+	margin-top:20px;
+	display:inline-block;
+}
+.twitter{
+	background-color: #009eed;
+}
+.facebook{
+	background-color: #3a589e;
+}
+.google{
+	background-color: #df4b37;
+}
+.twitter:hover, .facebook:hover, .google:hover{
+	color: white;
+	border-radius: 50px;
+}
+.twitter:hover{
+	background: linear-gradient(#009eed, #2377a0, #009eed);
+}
+.facebook:hover{
+	background: linear-gradient(#3a589e, #6786d0, #3a589e);
+}
+.google:hover{
+	background: linear-gradient(#df4b37, #d41e05, #df4b37);
+}
 ::-moz-selection {
 	text-shadow:none;
 	background:#fcfcfc;
@@ -361,9 +422,11 @@ p.lead {
 	display:inline-block;
 }
 .btnghost:hover {
-	background-color:#333;
+	/*background-color:#333;*/
+	background: linear-gradient(#333, #19454e 50%, #333);
 	color:#fff;
 	border:2px solid #333;
+	border-radius: 50px;
 }
 .bgcover {
 	background-size:cover;
@@ -373,6 +436,8 @@ p.lead {
 img {
 	max-width:100%;
 }
+
+/* ----------------------------------- Gallery Section -------------------------- */
 .gallery ul {
 	padding:0;
 	margin:0;
@@ -433,6 +498,29 @@ img {
 .gallery ul li a:hover:after {
 	opacity:1;
 }
+
+.gallery img{
+	height: 220px;
+	width: 100%;
+}
+.gallery #headerImageGrid{
+	text-align: center;
+	padding: 90px 0px;
+}
+.gallery #headerImageGrid p{
+	margin-bottom: 35px;
+}
+.gallery #headerImageGrid div{
+	padding: 0px;
+}
+@media only screen and (max-width: 767px) {
+	.pHomePage{
+		padding: 0px 15px;	
+		font-size: 15px;
+	}
+}
+/* --------------------------------------------------------- */
+
 section:after {
 	float:none;
 	clear:both;
@@ -488,11 +576,6 @@ section[id="community"]{
 hr {
 	border-top: 1px dashed #8c8b8b;
 	margin: 0px;
-}
-
-#gallery img{
-	height: 220px;
-	width: 100%;
 }
 
 //-------------------------------- For the image modal ---------------------
