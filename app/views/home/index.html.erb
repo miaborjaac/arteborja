@@ -30,11 +30,11 @@
 				<h5>Anibal Borja</h4>
 			</div>
 			<div class="col-lg-8 col-lg-offset-2">
-				<p>
-					Maestro en Bellas Artes, con especialización en Pintura. Egresado de la Universidad Nacional de Colombia.
+				<p class="pHomePage">
+					Maestro en Bellas Artes, con especialización en Pintura. <br/> Universidad Nacional de Colombia.
 				</p>
 				<p>
-					<a href="/biografía" class="btnghost"><i class="fa fa-plus"></i> Saber más</a>
+					<a href="/sobre-mi" class="btnghost"><i class="fa fa-plus"></i> Saber más</a>
 				</p>
 			</div>
 		</div>
@@ -44,66 +44,57 @@
 <section id="gallery">
 	<div class="gallery">
 		<ul>
-			<li class="col-md-3">
-			    <a href="portfolio-item.html">
-			        <img src="https://unsplash.it/680/380?random=1" alt="">
-			    </a>
-			</li>
-			<li class="col-md-3">
-    			<a href="portfolio-item.html">
-        			<img src="https://unsplash.it/680/380?random=2" alt="">
-    			</a>
-			</li>
-			<li class="col-md-3">
-			    <a href="portfolio-item.html">
-			        <img src="https://unsplash.it/680/380?random=3" alt="">
-			    </a>
-			</li>
-			<li class="col-md-3">
-    			<a class="image" href="portfolio-item.html">
-    			    <img src="https://unsplash.it/680/380?random=4" alt="">
-    			</a>
-			</li>
-			<li class="col-md-3">
-    			<a href="portfolio-item.html">
-    			    <img src="https://unsplash.it/680/380?random=5" alt="">
-    			</a>
-			</li>
-			<li class="col-md-3">
-    			<a href="portfolio-item.html">
-    			    <img src="https://unsplash.it/680/380?random=6" alt="">
-    			</a>
-			</li>
-			<li class="col-md-3">
-    			<a href="portfolio-item.html">
-    			    <img src="https://unsplash.it/680/380?random=7" alt="">
-    			</a>
-			</li>
-			<li class="col-md-3">
-			    <a href="portfolio-item.html">
-    			    <img src="https://unsplash.it/680/380?random=8" alt="">
-    			</a>
-			</li>
-			<li class="col-md-3">
-    			<a href="portfolio-item.html">
-    			    <img src="https://unsplash.it/680/380?random=10" alt="">
-    			</a>
-			</li>
-			<li class="col-md-3">
-    			<a href="portfolio-item.html">
-    			    <img src="https://unsplash.it/680/380?random=11" alt="">
-    			</a>
-			</li>
-			<li class="col-md-3">
-    			<a href="portfolio-item.html">
-    		    	<img src="https://unsplash.it/680/380?random=12" alt="">
-    			</a>
-    		</li>
-			<li class="col-md-3">
-    			<a href="portfolio-item.html">
-    			    <img src="https://unsplash.it/680/380?random=13" alt="">
-    			</a>
-			</li>
+			<div class="col-lg-12 col-md-12 col-sm-12" id="headerImageGrid">
+				<div class="col-lg-12 col-md-12 col-sm-12">
+					<h2>Galería</h2>
+					<p class="pHomePage">Podrás ver todas las obras de <b><i><%= @page_name %></i></b> en la galería.</p>
+				</div>
+				<div class="col-lg-12 col-md-12 col-sm-12">
+					<button type="button" class="btn btnghost btn-lg"><i class="fa fa-paint-brush"></i><span class="network-name"> Acceder a galería</span></button>
+				</div>
+			</div>
+			<div class="col-lg-12 col-md-12 col-sm-12" id="imageGrid">
+				<div class="col-lg-3 col-md-6 col-sm-6" id="imageGrid1">
+					<% rnd_img = Paint.where(:image => "paints/pastor.PNG") %>
+					<%= image_tag(rnd_img[0].image, alt: rnd_img[0].title, id: "myImg", class: "myImg", onclick: "paintZoomIn(this);") %>
+				</div>
+				<div class="col-lg-9 col-md-6 col-sm-6" id="imageGrid2">
+					<div class="col-lg-12" id="imageGrid2_1">
+						<div class="col-lg-6 col-md-12 col-sm-12">
+							<% rnd_img = Paint.find(rand(1..Paint.count)) %>
+							<%= image_tag(rnd_img.image, alt: rnd_img.title, id: "myImg", class: "myImg", onclick: "paintZoomIn(this);") %>
+						</div>
+						<div class="col-lg-6 col-md-12 col-sm-12">
+							<% rnd_img = Paint.find(rand(1..Paint.count)) %>
+							<%= image_tag(rnd_img.image, alt: rnd_img.title, id: "myImg", class: "myImg", onclick: "paintZoomIn(this);") %>
+						</div>
+					</div>
+					<div class="col-lg-12" id="imageGrid2_2">
+						<div class="col-lg-4 col-md-12 col-sm-12">
+							<% rnd_img = Paint.find(rand(1..Paint.count)) %>
+							<%= image_tag(rnd_img.image, alt: rnd_img.title, id: "myImg", class: "myImg", onclick: "paintZoomIn(this);") %>
+						</div>
+						<div class="col-lg-4 col-md-12 col-sm-12">
+							<% rnd_img = Paint.find(rand(1..Paint.count)) %>
+							<%= image_tag(rnd_img.image, alt: rnd_img.title, id: "myImg", class: "myImg", onclick: "paintZoomIn(this);") %>
+						</div>
+						<div class="col-lg-4 col-md-12 col-sm-12">
+							<% rnd_img = Paint.find(rand(1..Paint.count)) %>
+							<%= image_tag(rnd_img.image, alt: rnd_img.title, id: "myImg", class: "myImg", onclick: "paintZoomIn(this);") %>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-12" id="imageGrid3">
+					<div class="col-lg-6 col-md-6 col-sm-6">
+						<% rnd_img = Paint.find(rand(1..Paint.count)) %>
+						<%= image_tag(rnd_img.image, alt: rnd_img.title, id: "myImg", class: "myImg", onclick: "paintZoomIn(this);") %>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6">
+						<% rnd_img = Paint.find(rand(1..Paint.count)) %>
+						<%= image_tag(rnd_img.image, alt: rnd_img.title, id: "myImg", class: "myImg", onclick: "paintZoomIn(this);") %>
+					</div>
+				</div>
+			</div>
 		</ul>
 	</div>
 </section>
@@ -114,8 +105,8 @@
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2">
 				<h2>Servicios</h2>
-				<p>
-					 Podrás solicitar un servicio artístico en las diferentes modalidades que ofrece <i><%= @page_name %></i>.
+				<p class="pHomePage">
+					 Podrás solicitar un servicio artístico en las diferentes modalidades que ofrece <b><i><%= @page_name %></i></b>.
 				</p>
 				<ul class="list-inline banner-social-buttons">
 					<li>
@@ -133,8 +124,8 @@
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2">
 				<h2>Comunidad</h2>
-				<p>
-					 Participa en la comunidad de <i><%= @page_name %></i>. Podrás observar las opiniones de las demás personas y comentar lo que piensas.
+				<p class="pHomePage">
+					 Participa en la comunidad de <b><i><%= @page_name %></i></b>. Podrás observar las opiniones de las demás personas y comentar lo que piensas.
 				</p>
 				<ul class="list-inline banner-social-buttons">
 					<li>
@@ -142,21 +133,27 @@
 					</li>
 				</ul>
 				<br></br>
-				<p>
-					 También puedes seguir a <i><%= @page_name %></i> en redes sociales.
+				<p class="pHomePage">
+					 También puedes seguir a <b><i><%= @page_name %></i></b> en redes sociales.
 				</p>
 				<ul class="list-inline banner-social-buttons">
 					<li>
-					<a href="https://twitter.com/wowthemesnet" class="btn btnghost btn-lg"><i class="fa fa-twitter fa-fw"></i><span class="network-name">Twitter</span></a>
+					<a href="https://twitter.com/wowthemesnet" class="btn btn-lg twitter"><i class="fa fa-twitter fa-fw"></i><span class="network-name">Twitter</span></a>
 					</li>
 					<li>
-					<a href="https://www.facebook.com/pages/wowthemesnet/562560840468823" class="btn btnghost btn-lg"><i class="fa fa-facebook fa-fw"></i><span class="network-name">Facebook</span></a>
+					<a href="https://www.facebook.com/pages/wowthemesnet/562560840468823" class="btn btn-lg facebook"><i class="fa fa-facebook fa-fw"></i><span class="network-name">Facebook</span></a>
 					</li>
 					<li>
-					<a href="https://plus.google.com/u/0/b/110916582192388695332/110916582192388695332/posts" class="btn btnghost btn-lg"><i class="fa fa-google-plus fa-fw"></i><span class="network-name">Google+</span></a>
+					<a href="https://plus.google.com/u/0/b/110916582192388695332/110916582192388695332/posts" class="btn btn-lg google"><i class="fa fa-google-plus fa-fw"></i><span class="network-name"> Google+</span></a>
 					</li>
 				</ul>
 			</div>
 		</div>
 	</div>
 </section>
+
+<!-- Modal for images -->
+<div id="myModalImages" class="modal" onclick="paintZoomOut(this);">
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>

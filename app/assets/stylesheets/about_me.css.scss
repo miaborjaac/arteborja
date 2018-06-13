@@ -1,0 +1,64 @@
+// ---------------------------------- Content Style --------------------------------//
+@media(min-width:768px) {
+	#page-sample .content-section .row .col-lg-offset-2{
+		margin: 0px;
+		width: 100%;
+		padding: 0px 50px;
+	}
+}
+@media(max-width:768px) {
+	#page-sample .content-section {
+		padding: 100px 0px;
+	}
+	#page-sample .content-section .row .col-lg-offset-2{
+		margin: 0px;
+		width: 100%;
+		padding: 0px 40px;
+	}
+}
+@media(max-width:415px) {
+	#page-sample .content-section .row .col-lg-offset-2{
+		padding: 0px 20px;
+	}
+}
+
+//-------------------------------------- Circle Image Style ---------------------------- //
+#circle-shape-example {
+	font-family: Open Sans, sans-serif; 
+  	margin: 2rem; 
+  	text-align: justify;
+}
+#circle-shape-example p { 
+	line-height: 1.8; 
+}
+#circle-shape-example .curve {
+	height: 15em; 
+	width: 15em;
+  	float: left;
+  	margin-right:2rem; 
+  	border-radius: 50%;
+  	-webkit-shape-outside:circle();
+  	shape-outside:circle();
+}
+#circle-shape-example .curve1 {
+	height: 15em; 
+	width: 15em;
+  	float: right;
+  	margin-left:2rem; 
+  	border-radius: 50%;
+  	-webkit-shape-outside:circle();
+  	shape-outside:circle();
+}
+@media(max-width:768px) {
+	#circle-shape-example .curve, #circle-shape-example .curve1 { 
+		height: 10em; 
+		width: 10em;
+	}
+}
+@media(max-width:415px) {
+	#circle-shape-example .curve, #circle-shape-example .curve1 { 
+		height: 9em; 
+		width: 9em;
+		margin-right: 1rem;
+	}
+}
