@@ -34,28 +34,25 @@
 					Maestro en Bellas Artes, con especialización en Pintura. <br/> Universidad Nacional de Colombia.
 				</p>
 				<p>
-					<a href="/biografía" class="btnghost"><i class="fa fa-plus"></i> Saber más</a>
+					<a href="/sobre-mi" class="btnghost"><i class="fa fa-plus"></i> Saber más</a>
 				</p>
 			</div>
 		</div>
 	</div>
 </section>
 
-<hr>
-
-<section>
+<section id="gallery">
 	<div class="gallery">
 		<ul>
 			<div class="col-lg-12 col-md-12 col-sm-12" id="headerImageGrid">
 				<div class="col-lg-12 col-md-12 col-sm-12">
+					<h2>Galería</h2>
 					<p class="pHomePage">Podrás ver todas las obras de <b><i><%= @page_name %></i></b> en la galería.</p>
 				</div>
 				<div class="col-lg-12 col-md-12 col-sm-12">
 					<button type="button" class="btn btnghost btn-lg"><i class="fa fa-paint-brush"></i><span class="network-name"> Acceder a galería</span></button>
 				</div>
-			</div>	
-				
-			
+			</div>
 			<div class="col-lg-12 col-md-12 col-sm-12" id="imageGrid">
 				<div class="col-lg-3 col-md-6 col-sm-6" id="imageGrid1">
 					<% rnd_img = Paint.where(:image => "paints/pastor.PNG") %>

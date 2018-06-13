@@ -1,6 +1,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import "font-awesome";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 @font-face {
   font-family: "Viner Hand ITC Regular";
@@ -15,6 +16,9 @@ body {
 	color:#fff;
 	background-color:#000;
 	 font-weight:300;
+}
+body {
+	webkit-tap-highlight-color:rgba(255,255,255,.2);
 }
 html {
 	width:100%;
@@ -53,37 +57,17 @@ a:hover,a:focus {
 .light {
 	font-weight:400;
 }
+
+// ----------------------------- NavBar ----------------------------------//
 #navbar-item-general-layout{
 	color: black; 	
 }
-
-//---------------
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
-#circle-shape-example {
-	font-family: Open Sans, sans-serif; 
-  	margin: 2rem; 
-  	text-align: justify;
-}
-#circle-shape-example p { 
-	line-height: 1.8; 
-}
-#circle-shape-example .curve { 
-	width: 33%; height: auto;
-  	min-width: 150px;
-  	float: left;
-  	margin-right:2rem; 
-  	border-radius: 50%;
-  	-webkit-shape-outside:circle();
-  	shape-outside:circle();
-}
-//---------------------
-
 .navbar-custom {
 	margin-bottom:0;
 	border-bottom:1px solid rgba(255,255,255,.3);
 	text-transform:uppercase;
 	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; //"Viner Hand ITC Regular"; 
-	background-color:#000;
+	background: linear-gradient(to right, #333, #19454e 50%, #333, #c97136);
 }
 .navbar-custom .navbar-brand {
 	font-size:20px;
@@ -141,14 +125,14 @@ a:hover,a:focus {
 		-moz-transition:background .5s ease-in-out,padding .5s ease-in-out;
 		transition:background .5s ease-in-out,padding .5s ease-in-out;
 	}
-		 .navbar-custom.top-nav-collapse {
-		 padding:0;
+	.navbar-custom.top-nav-collapse {
+		padding:0;
 		border-bottom:1px solid rgba(255,255,255,.3);
-		color:#333;
-			background:#fff;
+		background:red;
+		background: linear-gradient(to right, #333, #19454e 50%, #333, #c97136);
 	}
 	.navbar-custom.top-nav-collapse a {
-		color:#333;
+		color:white;
 		display:inline-block;
 	}
 }
@@ -174,6 +158,8 @@ a:hover,a:focus {
 		margin-left: 10px;
 	}
 }
+
+//----------------------------- Header Section --------------------------- //
 .intro {
 	display:table;
 	width:100%;
@@ -220,6 +206,7 @@ a:hover,a:focus {
 .btn-circle {
 	width:50px;
 	height:50px;
+	margin-bottom:15px;
 	margin-top:15px;
 	line-height:40px;
 	text-align:center;
@@ -281,162 +268,6 @@ a:hover,a:focus {
 		transform:scale(1);
 	}
 }
-.content-section {
-	padding:40px 0;
-	clear:both;
-}
-@media(min-width:767px) {
-	.content-section {
-		padding:150px 0;
-			 clear:both;
-	}
-}
-.btn {
-	border-radius:0;
-	text-transform:uppercase;
-	font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-weight:400;
-	-webkit-transition:all .3s ease-in-out;
-	-moz-transition:all .3s ease-in-out;
-	transition:all .3s ease-in-out;
-}
-.btn-default {
-	border:1px solid #42dca3;
-	color:#42dca3;
-	background-color:transparent;
-}
-.btn-default:hover,.btn-default:focus {
-	border:1px solid #42dca3;
-	outline:0;
-	color:#000;
-	background-color:#42dca3;
-}
-ul.banner-social-buttons {
-	margin-top:0;
-}
-@media(max-width:1199px) {
-	ul.banner-social-buttons {
-		margin-top:15px;
-	}
-}
-@media(max-width:767px) {
-	ul.banner-social-buttons li {
-		display:block;
-		margin-bottom:20px;
-		padding:0;
-	}
-	ul.banner-social-buttons li:last-child {
-		margin-bottom:0;
-	}
-}
-footer {
-	padding:40px 0;
-	z-index:1;
-	position:relative;
-	clear:both;
-}
-footer p {
-	margin:0;
-	font-size:15px;
-}
-footer p.credits {
-	text-transform:uppercase;
-	font-size:13px;
-	letter-spacing:3px;
-}
-.twitter, .facebook, .google{
-	border:2px solid #333;
-	background-color:transparent;
-	padding:15px 20px;
-	letter-spacing:3px;
-	font-size:12px;
-	text-transform:uppercase;
-	font-weight:400;
-	color: white;
-	margin-top:20px;
-	display:inline-block;
-}
-.twitter{
-	background-color: #009eed;
-}
-.facebook{
-	background-color: #3a589e;
-}
-.google{
-	background-color: #df4b37;
-}
-.twitter:hover, .facebook:hover, .google:hover{
-	color: white;
-	border-radius: 50px;
-}
-.twitter:hover{
-	background: linear-gradient(#009eed, #2377a0, #009eed);
-}
-.facebook:hover{
-	background: linear-gradient(#3a589e, #6786d0, #3a589e);
-}
-.google:hover{
-	background: linear-gradient(#df4b37, #d41e05, #df4b37);
-}
-::-moz-selection {
-	text-shadow:none;
-	background:#fcfcfc;
-	background:rgba(255,255,255,.2);
-}
-::selection {
-	text-shadow:none;
-	background:#fcfcfc;
-	background:rgba(255,255,255,.2);
-}
-img::selection {
-	background:0 0;
-}
-img::-moz-selection {
-	background:0 0;
-}
-body {
-	webkit-tap-highlight-color:rgba(255,255,255,.2);
-}
-.bgblue {
-	background:#22292c;
-}
-.inlineblock {
-	display:inline-block;
-}
-p:last-child {
-	margin-bottom:0;
-}
-p.lead {
-	line-height:1.9;
-}
-.btnghost {
-	border:2px solid #333;
-	background-color:transparent;
-	padding:15px 20px;
-	letter-spacing:3px;
-	font-size:12px;
-	text-transform:uppercase;
-	font-weight:400;
-	color:#333;
-	margin-top:20px;
-	display:inline-block;
-}
-.btnghost:hover {
-	/*background-color:#333;*/
-	background: linear-gradient(#333, #19454e 50%, #333);
-	color:#fff;
-	border:2px solid #333;
-	border-radius: 50px;
-}
-.bgcover {
-	background-size:cover;
-	background-repeat:no-repeat;
-	position:relative;
-}
-img {
-	max-width:100%;
-}
-
 /* ----------------------------------- Gallery Section -------------------------- */
 .gallery ul {
 	padding:0;
@@ -513,153 +344,6 @@ img {
 .gallery #headerImageGrid div{
 	padding: 0px;
 }
-@media only screen and (max-width: 767px) {
-	.pHomePage{
-		padding: 0px 15px;	
-		font-size: 15px;
-	}
-}
-/* --------------------------------------------------------- */
-
-section:after {
-	float:none;
-	clear:both;
-}
-section {
-	background-color:#f9f9f9;
-	color:#333;
-	overflow:hidden;
-}
-
-section[id="community"]{
-	background-color: #DAE0E2;
-}
-
-.done {
-	display:none;
-}
-.error input,input.error,.error textarea,textarea.error {
-	background-color:#ffffff;
-	border-bottom:2px solid orangered !Important;
-	-webkit-transition:border linear 0.2s,box-shadow linear 0.2s;
-	-moz-transition:border linear 0.2s,box-shadow linear 0.2s;
-	-o-transition:border linear 0.2s,box-shadow linear 0.2s;
-	transition:border linear 0.2s,box-shadow linear 0.2s;	
-}
-#contactform input,#contactform textarea {
-	border:0px;
-	border-bottom:2px solid #333;
-	width:100%;
-	background-color:transparent;
-	padding:20px 0px;
-	text-transform:uppercase;
-	letter-spacing:2px;
-	margin-bottom:20px;
-}
-#contactform input#submit {
-	width:auto;
-	border:2px solid;
-	padding:10px 20px;
-	display:inline-block;
-}
-#contactform input#submit:hover {
-	background-color:#333;
-	color:#fff;
-	border:2px solid #333;
-}
-#contactform input:focus,#contactform input:active,#contactform textarea:focus,#contactform textarea:active {
-	border-top:0px;
-	border-bottom:2px solid lightseagreen;
-	outline:0;
-	outline: none;
-}
-hr {
-	border-top: 1px dashed #8c8b8b;
-	margin: 0px;
-}
-
-//-------------------------------- For the image modal ---------------------
-
-#myImg {
-    cursor: zoom-in;
-    transition: 0.3s;
-    
-}
-
-#myImg:hover {opacity: 0.7;}
-
-/* The Modal (background) */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-}
-
-/* Modal Content (image) */
-.modal-content {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-}
-
-/* Caption of Modal Image */
-#caption {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-    text-align: center;
-    color: #ccc;
-    padding: 10px 0;
-    height: 150px;
-}
-
-/* Add Animation */
-.modal-content, #caption {    
-    -webkit-animation-name: zoom;
-    -webkit-animation-duration: 0.6s;
-    animation-name: zoom;
-    animation-duration: 0.6s;
-}
-
-@-webkit-keyframes zoom {
-    from {-webkit-transform:scale(0)} 
-    to {-webkit-transform:scale(1)}
-}
-
-@keyframes zoom {
-    from {transform:scale(0)} 
-    to {transform:scale(1)}
-}
-
-#myModalImages{
-	cursor: zoom-out;
-}
-
-/* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
-    .modal-content {
-        width: 100%;
-    }
-}
-
-#img01{
-	border: 30px solid transparent;
-    padding: 15px;
-    border-image: url(http://www.uvassociates.in/sites/default/files/images/borders/Wooden-3-logs-rectangular-powerpoint-border.png) 30 stretch;
-    //border-image: url(https://fondosdepantallaymuchomas.files.wordpress.com/2010/12/832.png) 30 stretch;
-}
-//-------------------------------------------------------
-
 #imageGrid, #imageGrid div{
 	padding: 0px;
 }
@@ -701,3 +385,266 @@ hr {
 		padding: 0px;
 	}
 }
+
+
+//--------------------- Sections (about, services, community) -------------------------//
+section:after {
+	float:none;
+	clear:both;
+}
+section {
+	background-color: #f9f9f9;
+	color:#333;
+	overflow:hidden;
+}
+section[id="community"], section[id="gallery"]{
+	background-color: #DAE0E2;
+}
+.content-section {
+	padding:40px 0;
+	clear:both;
+}
+@media(min-width:767px) {
+	.content-section {
+		padding:150px 0;
+			 clear:both;
+	}
+}
+.btnghost {
+	border:2px solid #333;
+	background-color:transparent;
+	padding:15px 20px;
+	letter-spacing:3px;
+	font-size:12px;
+	text-transform:uppercase;
+	font-weight:400;
+	color:#333;
+	margin-top:20px;
+	display:inline-block;
+}
+.btnghost:hover {
+	/*background-color:#333;*/
+	background: linear-gradient(#333, #19454e 50%, #333);
+	color:#fff;
+	border:2px solid #333;
+	border-radius: 50px;
+}
+
+// --------------------------- About Section -------------------------------- //
+@media only screen and (max-width: 767px) {
+	.pHomePage{
+		padding: 0px 15px;	
+		font-size: 15px;
+	}
+}
+
+// ----------------------------- Community Section --------------------------- //
+ul.banner-social-buttons {
+	margin-top:0;
+}
+@media(max-width:1199px) {
+	ul.banner-social-buttons {
+		margin-top:15px;
+	}
+}
+@media(max-width:767px) {
+	ul.banner-social-buttons li {
+		display:block;
+		margin-bottom:20px;
+		padding:0;
+	}
+	ul.banner-social-buttons li:last-child {
+		margin-bottom:0;
+	}
+}
+.twitter, .facebook, .google{
+	border:2px solid #333;
+	background-color:transparent;
+	padding:15px 20px;
+	letter-spacing:3px;
+	font-size:12px;
+	text-transform:uppercase;
+	font-weight:400;
+	color: white;
+	margin-top:20px;
+	display:inline-block;
+}
+.twitter{
+	background-color: #009eed;
+}
+.facebook{
+	background-color: #3a589e;
+}
+.google{
+	background-color: #df4b37;
+}
+.twitter:hover, .facebook:hover, .google:hover{
+	color: white;
+	border-radius: 50px;
+}
+.twitter:hover{
+	background: linear-gradient(#009eed, #2377a0, #009eed);
+}
+.facebook:hover{
+	background: linear-gradient(#3a589e, #6786d0, #3a589e);
+}
+.google:hover{
+	background: linear-gradient(#df4b37, #d41e05, #df4b37);
+}
+
+// -------------------------------- Footer Section -------------------------- //
+footer {
+	padding:40px 0;
+	z-index:1;
+	position:relative;
+	clear:both;
+	background: linear-gradient(to right, #333, #19454e 50%, #333);
+}
+footer p {
+	margin:0;
+	font-size:15px;
+}
+footer p.credits {
+	text-transform:uppercase;
+	font-size:13px;
+	letter-spacing:3px;
+}
+@media(max-width: 500px) {
+	footer p.credits{
+		font-size: 10px;
+	}
+}
+::-moz-selection {
+	text-shadow:none;
+	background:#fcfcfc;
+	background:rgba(255,255,255,.2);
+}
+::selection {
+	text-shadow:none;
+	background:#fcfcfc;
+	background:rgba(255,255,255,.2);
+}
+img::selection {
+	background:0 0;
+}
+img::-moz-selection {
+	background:0 0;
+}
+p:last-child {
+	margin-bottom:0;
+}
+p.lead {
+	line-height:1.9;
+}
+img {
+	max-width:100%;
+}
+
+//-------------------------------- For the image modal ---------------------
+#myImg {
+    cursor: zoom-in;
+    transition: 0.3s;
+}
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+/* Add Animation */
+.modal-content, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+#myModalImages{
+	cursor: zoom-out;
+}
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+#img01{
+	border: 30px solid transparent;
+    padding: 15px;
+    border-image: url(http://www.uvassociates.in/sites/default/files/images/borders/Wooden-3-logs-rectangular-powerpoint-border.png) 30 stretch;
+    //border-image: url(https://fondosdepantallaymuchomas.files.wordpress.com/2010/12/832.png) 30 stretch;
+}
+
+/* 
+.error input,input.error,.error textarea,textarea.error {
+	background-color:#ffffff;
+	border-bottom:2px solid orangered !Important;
+	-webkit-transition:border linear 0.2s,box-shadow linear 0.2s;
+	-moz-transition:border linear 0.2s,box-shadow linear 0.2s;
+	-o-transition:border linear 0.2s,box-shadow linear 0.2s;
+	transition:border linear 0.2s,box-shadow linear 0.2s;	
+}
+#contactform input,#contactform textarea {
+	border:0px;
+	border-bottom:2px solid #333;
+	width:100%;
+	background-color:transparent;
+	padding:20px 0px;
+	text-transform:uppercase;
+	letter-spacing:2px;
+	margin-bottom:20px;
+}
+#contactform input#submit {
+	width:auto;
+	border:2px solid;
+	padding:10px 20px;
+	display:inline-block;
+}
+#contactform input#submit:hover {
+	background-color:#333;
+	color:#fff;
+	border:2px solid #333;
+}
+#contactform input:focus,#contactform input:active,#contactform textarea:focus,#contactform textarea:active {
+	border-top:0px;
+	border-bottom:2px solid lightseagreen;
+	outline:0;
+	outline: none;
+} */
