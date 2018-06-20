@@ -1,3 +1,40 @@
+// ----------------------------- Next and Previous page buttons style ------------------------------//
+.content-section .next-prev-pag{
+	text-align: center;
+	margin-bottom: 30px;
+}
+.content-section .next-prev-pag a{
+	border:2px solid #333;
+	background-color:transparent;
+	padding:15px 20px;
+	letter-spacing:3px;
+	font-size:12px;
+	text-transform:uppercase;
+	font-weight:400;
+	color:#333;
+	margin:20px;
+	display:inline-block;
+}
+.content-section .next-prev-pag a:hover {
+	/*background-color:#333;*/
+	background: linear-gradient(#333, #19454e 50%, #333);
+	color:#fff;
+	border:2px solid #333;
+	border-radius: 50px;
+}
+.content-section .next-prev-pag a.disabled{
+	border:2px solid #817F7F;
+	background-color:#A8A5A5;
+	padding:15px 20px;
+	letter-spacing:3px;
+	font-size:12px;
+	text-transform:uppercase;
+	font-weight:400;
+	color:#333;
+	margin:20px;
+	display:inline-block;
+}
+
 // ---------------------------------- Content Style --------------------------------//
 @media(min-width:768px) {
 	#page-sample .content-section .row .col-lg-offset-2{
