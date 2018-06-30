@@ -10,5 +10,9 @@ class PagesControllerTest < ActionDispatch::IntegrationTest
     get pages_about_me_2_url
     assert_response :success
   end
-
+  
+  test "should get gallery" do
+    get pages_gallery_url
+    assert_response :success
+  end
 end

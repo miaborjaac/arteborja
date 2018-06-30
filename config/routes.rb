@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'pages/gallery'
+
   resources :paints
   get "sobre-mi/exposiciones" => 'pages#about_me_2'
   get "sobre-mi" => 'pages#about_me'

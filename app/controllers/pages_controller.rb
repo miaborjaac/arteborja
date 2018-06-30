@@ -12,4 +12,7 @@ class PagesController < ApplicationController
     @section = "- Biografía"
     render :layout => 'pages_layout'
   end
+  
+  def gallery
+  end
 end
